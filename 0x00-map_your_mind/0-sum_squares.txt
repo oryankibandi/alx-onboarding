@@ -1,0 +1,7 @@
+FUNCTION sumsquares
+	input number1 and number2
+	initialize cnumber1 = number1
+	initialize cnumber2 = number2
+	assign number1 = number1 **2
+	assign number2 = number2**2
+	SUM number1 and number2
