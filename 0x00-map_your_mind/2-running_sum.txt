@@ -1,0 +1,10 @@
+prompt user to enter numbers
+save numbers to numbers array
+FUNCTION runningsum
+	initialize sum = 0
+	LOOP through numbers array
+		FOR EACH number
+			IF number<0
+				PRINT sum
+			ELSE
+				sum += number
