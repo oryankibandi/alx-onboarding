@@ -1,0 +1,17 @@
+FUNCTION input a,b,c
+	IF a<b then
+		IF a<c then
+			IF b<c then
+				PRINT a,b,c
+			ELSE
+				PRINT a,c,b
+		ELSE
+			PRINT c,a,b
+	ELSE IF b<c then
+		IF a<c then
+			PRINT b,a,c
+		ELSE
+			PRINT b,c,a
+	ELSE
+		PRINT c,b,a
+	END
